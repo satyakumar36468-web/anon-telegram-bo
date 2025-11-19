@@ -8,7 +8,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Use /start to check bot working.")
 
 # --- Put your new BotFather token below ---
-BOT_TOKEN = "8316305335:AAHStS2NUl5cvj28-9C6z4HePQ-A5Cs3uq4"
+BOT_TOKEN = "
 # ------------------------------------------
 
 app = ApplicationBuilder().token(BOT_TOKEN).build()
